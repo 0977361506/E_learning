@@ -1,0 +1,172 @@
+ li > a{
+ color: #f6821f !important;
+}
+.row{
+	background:#F3F3F3;
+}
+div.container{
+	max-width: 1000px !important;
+}
+div .list{
+	width: 40%;
+}
+#userDropdownMenu{
+	margin-top: 4px;
+	margin-right: 380px;
+	
+}
+@media screen and (max-width: 480px) {
+  #userDropdownMenu {
+  	margin-left: 300px;
+  }
+}
+a.navbar-brand > img{
+	max-width: 60px;
+	max-height: 80px;
+}
+a.carousel-control-next{
+	margin-right: 300px;
+}
+.courses_search_container_home {
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #ffffff;
+    
+}
+.courses_search_button {
+    width: 100px;
+    height: 30px;
+    background: #0060aa;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin:25px;
+    font-size: 10px;
+    
+}
+input #courses_search_form{
+	height: 60px;
+	margin-right: 30px;
+	
+}
+div.cards{
+	margin-top:20px;
+
+}
+div.card{
+	margin-bottom:20px;
+	    max-height: 300px;
+	
+}
+div.card  img{
+  max-width: 100%px;
+	width: 100%;
+    height: 140px;
+   
+}
+div.card-header{
+	padding :0px;
+}
+.course_teacher {
+    font-size: 13px;
+    font-weight: 400;
+    color: #666;
+    margin-top: 1px;
+}
+a {
+    color: #f6821f;
+}
+div.card-body{
+	height: 100px;
+}
+h1 {
+    font-size: 10px;
+}
+span{
+	font-size: 15px;
+	 color: #f6821f;
+}
+div.bodys{
+	background: white !important;
+}
+div.rows{
+	background:  #f6821f;
+}
+div.a{
+	font-size: 20px;
+	color: blue;
+}
+div.b{
+	font-size: 15px;
+	color: red;
+}
+div.footer{
+	background: blue;
+	margin-top: -23px;
+	padding:80px;
+	}
+ul{
+	list-style: none;
+	
+}
+
+
+h2{
+	color: #F6821F;
+}
+@media (min-width: 1200px)
+.container {
+    max-width: 1140px;
+}
+@media (min-width: 992px)
+.container {
+    max-width: 960px;
+}
+@media (min-width: 768px)
+.container {
+    max-width: 720px;
+}
+@media (min-width: 576px)
+.container {
+    max-width: 540px;
+}
+div.card-img img{
+	min-height: 160px;
+	max-width: 100%;
+}
+div.date{
+	display: inline;
+	float: left;
+	margin: 0px;
+		padding: 0px;
+}
+div.datebody{
+	width: 230px;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+div.hed{
+	font-size: 12px;
+	color: #f6821f;
+	
+}
+div.date{
+width: 60px;
+    height: 60px;
+
+
+}
+div.cardbody{
+	background:  #f6821f;
+	border-radius: 2px;
+	max-height: 300px;
+}
+div.root{
+	font-size: 15px;
+}

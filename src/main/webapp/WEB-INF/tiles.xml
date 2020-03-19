@@ -5,31 +5,13 @@
  
  <tiles-definitions>
   
-		 <definition name="admin.definition"
-		template="/WEB-INF/views/admin/layout.jsp">
-		<put-attribute name="head"
-			value="/WEB-INF/views/admin/layout/head.jsp" />
-		<put-attribute name="menu"
-			value="/WEB-INF/views/admin/layout/menu.jsp" />
-	<put-attribute name="footer"
-			value="/WEB-INF/views/admin/layout/footer.jsp" />
-			
-		<put-attribute name="body" value="" />
-	</definition>
-
-	<definition name="admin/*/*" extends="admin.definition">
-		<put-attribute name="body"
-			value="/WEB-INF/views/admin/{1}/{2}.jsp" />
-	</definition>
-	
-          <!-- template admin -->
-	<definition name="user.definition"
+		 <definition name="user.definition"
 		template="/WEB-INF/views/user/layout.jsp">
 		<put-attribute name="head"
 			value="/WEB-INF/views/user/layout/head.jsp" />
 		<put-attribute name="menu"
 			value="/WEB-INF/views/user/layout/menu.jsp" />
-	<put-attribute name="side"
+	<put-attribute name="footer"
 			value="/WEB-INF/views/user/layout/footer.jsp" />
 			
 		<put-attribute name="body" value="" />
@@ -38,6 +20,24 @@
 	<definition name="user/*/*" extends="user.definition">
 		<put-attribute name="body"
 			value="/WEB-INF/views/user/{1}/{2}.jsp" />
+	</definition>
+	
+          <!-- template admin -->
+	<definition name="admin.definition"
+		template="/WEB-INF/views/admin/layout.jsp">
+		<put-attribute name="head"
+			value="/WEB-INF/views/admin/layout/head.jsp" />
+		<put-attribute name="menu"
+			value="/WEB-INF/views/admin/layout/menu.jsp" />
+	<put-attribute name="side"
+			value="/WEB-INF/views/admin/layout/footer.jsp" />
+			
+		<put-attribute name="body" value="" />
+	</definition>
+
+	<definition name="admin/*/*" extends="admin.definition">
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin/{1}/{2}.jsp" />
 	</definition>
 	
    

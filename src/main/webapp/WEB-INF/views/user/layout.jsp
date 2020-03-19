@@ -18,7 +18,7 @@
 
   
 
-  <tiles:insertAttribute name="side" />
+  <tiles:insertAttribute name="footer" />
 
 
 

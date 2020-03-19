@@ -11,11 +11,11 @@ public class Test {
   }
 	@RequestMapping("/home/index")
 	  public String index11() {
-		  return "admin/GiaoDien/test";
+		  return "user/GiaoDien/test";
 	  }
 	@RequestMapping("/admin/index")
 	  public String indexadmin() {
-		  return "user/Test/admin";
+		  return "admin/Test/admin";
 	  }
 	
 }

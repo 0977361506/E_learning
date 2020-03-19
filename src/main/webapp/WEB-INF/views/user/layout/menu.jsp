@@ -1,121 +1,69 @@
 <%@ page  pageEncoding="utf-8"%>
 
-	<div class="wrapper">
+	<div class="header">
+		<div class="row" style="background: #ececec;">
 
-  <!-- Navbar -->
-  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-    <!-- Left navbar links -->
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="index3.html" class="nav-link">Trang Chủ</a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Liên Hệ</a>
-      </li>
-    </ul>
+			<div class="container" style="max-width: 1000px !important;">
+				<div class="list" style="margin-left: 220px;">
+					<ul style="list-style: none; margin-top: -10px;">
+						<li style="float: left;">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+							<a href="#" title="">1900 54 54 81  | </a>
+						</li>
+						<li style="float: left; margin-left: 12px;">
+							<a href="#" title="">vanphong@vnpost.vn</a>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+			<div class="dropdown" id="userDropdownMenu">
+				<button class="btn btn-sm btn-primary dropdown-toggle" type="button" id="userDropdownMenuBtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<i class="fa fa-sign-in"></i> &nbsp; Đăng nhập
+				</button>
+				<div class="dropdown-menu" aria-labelledby="userDropdownMenuBtn" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 30px, 0px); top: 0px; left: 0px; will-change: transform;">
+					<a style="color: #0060aa; font-weight: bold; display: none" class="dropdown-item" href="/security/ssoVnpt" title="Đăng nhập bằng email nội bộ">Sử dụng Email nội bộ</a>
+					<a style="font-size: 90%;" class="dropdown-item" href="#" data-toggle="modal" data-target="#loginModal" title="Đăng nhập bằng email cá nhân">Sử dụng Tên đăng nhập</a>
+				</div>
+			</div>
+		</div>
 
-    <!-- SEARCH FORM -->
-    <form class="form-inline ml-3">
-      <div class="input-group input-group-sm">
-        <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
-        <div class="input-group-append">
-          <button class="btn btn-navbar" type="submit">
-            <i class="fas fa-search"></i>
-          </button>
-        </div>
-      </div>
-    </form>
 
-    <!-- Right navbar links -->
-    <ul class="navbar-nav ml-auto">
-      <!-- Messages Dropdown Menu -->
-      <li class="nav-item dropdown">
-        <a class="nav-link" data-toggle="dropdown" href="#">
-          <i class="far fa-comments"></i>
-          <span class="badge badge-danger navbar-badge">3</span>
-        </a>
-        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-          <a href="#" class="dropdown-item">
-            <!-- Message Start -->
-            <div class="media">
-              <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
-              <div class="media-body">
-                <h3 class="dropdown-item-title">
-                  Brad Diesel
-                  <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
-                </h3>
-                <p class="text-sm">Call me whenever you can...</p>
-                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
-              </div>
-            </div>
-            <!-- Message End -->
-          </a>
-          <div class="dropdown-divider"></div>
-          <a href="#" class="dropdown-item">
-            <!-- Message Start -->
-            <div class="media">
-              <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
-              <div class="media-body">
-                <h3 class="dropdown-item-title">
-                  John Pierce
-                  <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
-                </h3>
-                <p class="text-sm">I got your message bro</p>
-                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
-              </div>
-            </div>
-            <!-- Message End -->
-          </a>
-          <div class="dropdown-divider"></div>
-          <a href="#" class="dropdown-item">
-            <!-- Message Start -->
-            <div class="media">
-              <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
-              <div class="media-body">
-                <h3 class="dropdown-item-title">
-                  Nora Silvester
-                  <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
-                </h3>
-                <p class="text-sm">The subject goes here</p>
-                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
-              </div>
-            </div>
-            <!-- Message End -->
-          </a>
-          <div class="dropdown-divider"></div>
-          <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
-        </div>
-      </li>
-      <!-- Notifications Dropdown Menu -->
-      <li class="nav-item dropdown">
-        <a class="nav-link" data-toggle="dropdown" href="#">
-          <i class="far fa-bell"></i>
-          <span class="badge badge-warning navbar-badge">15</span>
-        </a>
-        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-          <span class="dropdown-item dropdown-header">15 Notifications</span>
-          <div class="dropdown-divider"></div>
-          <a href="#" class="dropdown-item">
-            <i class="fas fa-envelope mr-2"></i> 4 new messages
-            <span class="float-right text-muted text-sm">3 mins</span>
-          </a>
-          <div class="dropdown-divider"></div>
-          <a href="#" class="dropdown-item">
-            <i class="fas fa-users mr-2"></i> 8 friend requests
-            <span class="float-right text-muted text-sm">12 hours</span>
-          </a>
-          <div class="dropdown-divider"></div>
-          <a href="#" class="dropdown-item">
-            <i class="fas fa-file mr-2"></i> 3 new reports
-            <span class="float-right text-muted text-sm">2 days</span>
-          </a>
-          <div class="dropdown-divider"></div>
-          <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
-        </div>
-      </li>
-      
-    </ul>
-  </nav>
+		<!-- top bar -->
+
+		<div class="row" style="background: #fff;"> <!-- top bar -->
+			<div class="container">
+
+				<nav class="navbar navbar-expand-lg bg-white">
+					<a class="navbar-brand" href="#"><img src="/image/trangchu.png" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon" style="background: #f6821f;"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 40%;">
+
+						<ul class="navbar-nav mr-right">
+							<li class="nav-item">
+								<a class="nav-link" href="#">Giới thiệu</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Khóa học</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link" href="#">Cuộc thi</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Tài liệu</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Tin tức</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Hỗ trợ</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+		</div>

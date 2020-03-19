@@ -45,7 +45,7 @@
 				<div class="row">
 					<div class="col-sm-3">
 						<div class="card">
-							<div class="card-header"><img src="/New folder/image/ơ.jpg" alt=""></div>
+							<div class="card-header"><img src="/image/ơ.jpg" alt=""></div>
 							<div class="card-body">
 								<h1 style="margin-top: 0px;"><a href="#">test dung thử chức năng hihi</a></h1>
 								<div class="card-text">
@@ -73,7 +73,7 @@
 
 					<div class="col-sm-3">
 						<div class="card">
-							<div class="card-header"><img src="/New folder/image/ơ.jpg" alt=""></div>
+							<div class="card-header"><img src="/image/ơ.jpg" alt=""></div>
 							<div class="card-body">
 								<h1 style="margin-top: 0px;"><a href="#">test dung thử chức năng hihi</a></h1>
 								<div class="card-text">
@@ -100,7 +100,7 @@
 
 					<div class="col-sm-3">
 						<div class="card">
-							<div class="card-header"><img src="/New folder/image/ơ.jpg" alt=""></div>
+							<div class="card-header"><img src="/image/ơ.jpg" alt=""></div>
 							<div class="card-body">
 								<h1 style="margin-top: 0px;"><a href="#">test dung thử chức năng hihi</a></h1>
 								<div class="card-text">
@@ -127,7 +127,7 @@
 
 					<div class="col-sm-3">
 						<div class="card">
-							<div class="card-header"><img src="/New folder/image/ơ.jpg" alt=""></div>
+							<div class="card-header"><img src="/image/ơ.jpg" alt=""></div>
 							<div class="card-body">
 								<h1 style="margin-top: 0px;"><a href="#">test dung thử chức năng hihi</a></h1>
 								<div class="card-text">
@@ -166,7 +166,7 @@
 					<div class="row khoahoc" style="background: white !important;">
 						<div class="col-sm-3">
 							<div class="card">
-								<div class="card-header"><img src="/New folder/image/ơ.jpg" alt=""></div>
+								<div class="card-header"><img src="/image/ơ.jpg" alt=""></div>
 								<div class="card-body">
 									<h1 style="margin-top: 0px;"><a href="#">test dung thử chức năng hihi</a></h1>
 									<div class="card-text">

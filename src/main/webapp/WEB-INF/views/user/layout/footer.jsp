@@ -31,78 +31,87 @@
 		</div>
 
 		<!--fotter-->
-		<div class="footer">
-			<div>
-				<footer class="footer">
-					<div class="footer_background" style="background-image:url(/theme/unicat/images/footer_background.png)"></div>
-					<div class="container">
-						<div class="row footer_row">
-							<div class="col">
-								<div class="footer_content">
-									<div class="row" style="background: blue;">
+			<footer id="FOOTER_1" style="margin-top: -30px;">
+			<div id="DIV_2">
+			</div>
+			<div id="DIV_3">
+				<div id="DIV_4">
+					<div id="DIV_5">
+						<div id="DIV_6">
+							<div id="DIV_7">
+								<div id="DIV_8">
+									<!-- Footer About -->
 
-										<div class="col-lg-4 footer_col">
-											<!-- Footer About -->
-											<div class="footer_section footer_about">
-												<div class="footer_logo_container">
-													<a href="/">
-														<div class="footer_logo_text"><small>VNPOST <span>E-Learning</span></small></div>
-													</a>
-												</div>
-												<div class="footer_about_text">
-													<p>CHUYÊN BIỆT- KHÁC BIỆT - HIỆU QUẢ</p>
-												</div>
-												<a href="" class="d-block">
-													<img src="/theme/vnptit/images/icon-download/Group%202.svg" alt="">
-												</a>
-												<a href="" class="mt-1 d-block">
-													<img src="/theme/vnptit/images/icon-download/Group%2078.svg" alt="">
-												</a>
+									<div id="DIV_9">
+										<div id="DIV_10">
+											<a href="https://vnpost.vnpt.edu.vn/" id="A_11"></a>
+											<div id="DIV_12">
+												<small id="SMALL_13">VNPOST <span id="SPAN_14">E-Learning</span></small>
 											</div>
-
 										</div>
+										<div id="DIV_15">
+											<p id="P_16">
+												CHUYÊN BIỆT- KHÁC BIỆT - HIỆU QUẢ
+											</p>
+										</div> <a href="https://vnpost.vnpt.edu.vn/default/contact" id="A_17"><img src="https://vnpost.vnpt.edu.vn/theme/vnptit/images/icon-download/Group%202.svg" alt="" id="IMG_18" /></a> <a href="https://vnpost.vnpt.edu.vn/default/contact" id="A_19"><img src="https://vnpost.vnpt.edu.vn/theme/vnptit/images/icon-download/Group%2078.svg" alt="" id="IMG_20" /></a>
+									</div>
+								</div>
+								<div id="DIV_21">
+									<!-- Footer Contact -->
 
-										<div class="col-lg-4 footer_col">
-											<!-- Footer Contact -->
-											<div class="footer_section footer_contact">
-												<div class="footer_title">Thông tin liên hệ</div>
-												<div class="footer_contact_info">
-													<ul>
-														<li>Email: vanphong@vnpost.vn</li>
-														<li>Phone: 1900 54 54 81 | </li>
-														<li>Địa chỉ: Số 05 đường Phạm Hùng - Mỹ Đình 2 - Nam Từ Liêm - Hà Nội - Việt Nam</li>
-													</ul>
-												</div>
-											</div>
-
+									<div id="DIV_22">
+										<div id="DIV_23">
+											Thông tin liên hệ
 										</div>
-
-										<div class="col-lg-4 footer_col">
-
-											<!-- Footer links -->
-											<div class="footer_section footer_links">
-												<div class="footer_title">Danh mục</div>
-												<div class="footer_links_container">
-													<ul>
-														<li><a href="/">Trang chủ</a></li>
-														<li><a href="/default/about">Giới thiệu</a></li>
-														<li><a href="/default/contact">Liên hệ</a></li>
-														<li><a href="/course/index">Khóa học</a></li>
-														<li><a href="/news/index">Tin tức</a></li>
-													</ul>
-												</div>
-											</div>
-
+										<div id="DIV_24">
+											<ul id="UL_25">
+												<li id="LI_26">
+													Email: vanphong@vnpost.vn
+												</li>
+												<li id="LI_27">
+													Phone: 1900 54 54 81 |
+												</li>
+												<li id="LI_28">
+													Địa chỉ: Số 05 đường Phạm Hùng - Mỹ Đình 2 - Nam Từ Liêm - Hà Nội - Việt Nam
+												</li>
+											</ul>
 										</div>
--
+									</div>
+								</div>
+								<div id="DIV_29">
+									<!-- Footer links -->
+
+									<div id="DIV_30">
+										<div id="DIV_31">
+											Danh mục
+										</div>
+										<div id="DIV_32">
+											<ul id="UL_33">
+												<li id="LI_34">
+													<a href="https://vnpost.vnpt.edu.vn/" id="A_35">Trang chủ</a>
+												</li>
+												<li id="LI_36">
+													<a href="https://vnpost.vnpt.edu.vn/default/about" id="A_37">Giới thiệu</a>
+												</li>
+												<li id="LI_38">
+													<a href="https://vnpost.vnpt.edu.vn/default/contact" id="A_39">Liên hệ</a>
+												</li>
+												<li id="LI_40">
+													<a href="https://vnpost.vnpt.edu.vn/course/index" id="A_41">Khóa học</a>
+												</li>
+												<li id="LI_42">
+													<a href="https://vnpost.vnpt.edu.vn/news/index" id="A_43">Tin tức</a>
+												</li>
+											</ul>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					
-				</footer>
+				</div>
 			</div>
-		</div>
-
-	
+			<div id="DIV_44">
+				<small id="SMALL_45">10.159.133.17|10.159.133.39|15:59:02 19/03/2020</small>
+			</div>
+		</footer>
